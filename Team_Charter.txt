@@ -1,0 +1,103 @@
+Team Charter
+
+Purpose and Key Responsibilities
+
+The purpose of Development Team 13 is to complete assignment two ‘Teamwork, Version Control, Code Review.’  The assignment requires the collaborative effort of the team members to establish a baseline code repository, operate under version control and conduct a static code review.  Throughout the project each team member will fill the meeting roles chairperson and minute recorder, as well as the static code review roles; mediator, reviewer and author.  These roles will be discussed further and appointed in the Roles and Responsibilities section.
+
+ 
+
+Vision
+
+Through the completion of assignment two, team members aim to gain better knowledge and experience of professional programming practices.
+
+ 
+
+Values
+
+Each project team member values, expects and aims to provide; a high level of work, an attention to detail, punctual work completion and meeting arrival and attendance, communication availability, professional collaboration, and swift and reasonable conflict resolution.
+
+ 
+
+Goals
+
+Complete individual designated work items.
+Attend every scheduled meeting and be available for impromptu meetings to assess, discuss and provide a report of progress of work items.
+Conduct a static code review once work items are completed to the team’s satisfaction and standards.
+Present and submit all material required for completion of assignment two.
+Roles and Responsibilities
+
+Team members:
+
+Sam McGann 
+Shailesh Jha
+Adam Poulsen
+Each team member is a coder as well several other rotated roles mentioned beneath.  As a coder, one will amend their assigned code (see Work Items) to ensure it meets the standards of the Java Programing Style Guidelines document provided as is required by assignment two and submit it for a static code review upon completion.
+
+Meeting roles:
+
+Chairperson – in this role one will; seek out status information before meeting to distribute meeting agenda, summarise individual contributions, and ensure meeting minutes are provided for all team members once the meeting is finished.
+Minute recorder – in this role one will; record meeting attendance, time and date as well as the following fortnights work item agenda for each individual team member.
+Static code review roles:
+
+Mediator - in this role one will; ensure the author delivers code for review on time, ensure the reviewer carries out the review within scheduled period, carry out any follow up work if appropriate, clarify misunderstands and mediate disagreements between other members, ensure the main line of development is working before notifying the author to update their branch prior to the static code review process, and verify that the main line of development code is working after the author has carried out the final merge.
+Reviewer - in this role one will; review the author’s code and ensured it meets required standards within the scheduled period, record every instance of non-compliance with standards and all detected bugs, and promptly review any rework submitted and notify the mediator when the review is completed.
+Author - in this role one will; provide the required code at the required standard by the time the review is scheduled, carry out any follow up work needed to address non-compliance with standard issues, submit rework and submit it to the mediator, and merge approved code with the team repository and ensure that the main line of development works after the final merge same as the mediator.
+Meeting and static code review roles will be rotated among team members and noted in each meeting’s minutes.
+
+Mutual Expectations
+
+Each team member is expected to complete work items to the standards that meet the high distinction criteria of assignment two and provide honest feedback on each team member’s work, manner and attendance at any time.
+
+Operating Procedures
+
+The work item agenda is to be decided upon and delegated fairly as a team.  Conflicts are to be settled by majority vote or an appointed mediator in the case of tie votes.  Non-urgent communication can be informally conducted via the Facebook.com page ‘ITC205 Development Team 13’ to schedule impromptu meetings, request help, etc.  Formal communication where meeting roles are assumed, minutes are recorded and work items discussed are to be conducted on a fortnightly basis via Skype voice chat.  And urgent communication to be done via telephone.
+
+Work Items
+
+Samuel Mcgann:
+
+AppProperties.java
+cgUI.java
+IStudentUnitRecord.java
+ListStudentsCTL.java
+Student.java
+StudentMap.java
+StudentUnitRecordLister.java
+Unit.java
+StudentUnitRecordProxy.java 
+UnitProxy.java
+
+Adam Poulen:
+
+cgCTL.java
+IUnit.java
+ListUnitsCTL.java
+StudentManager.java
+StudentUnitRecord.java
+StudentUnitRecordMap.java
+UnitMap.java
+XMLManager.java
+
+Shailesh Jha:
+
+cgUI.form
+IStudentLister.java
+IUnitLister.java
+Main.java
+StudentProxy.java
+StudentUnitRecordManager.java
+Unit.java 
+UnitManager.java
+
+
+URL to combined team repository
+
+https://github.com/ITC205Group13/assignment1
+
+URLs to each individual team member repository development branch
+
+Samuel Mcgann: https://github.com/hyrixer/My_Itc205_Asg2
+
+Shailesh Jha: 
+
+Adam Poulen: https://github.com/adampoulsen/myITC205Asg2
