@@ -1,4 +1,11 @@
-package datamanagement;
+package  datamanagement;
 
-public class Main {
-    public static void main(String[] p) {new cgCTL().execute();}    }
+import datamanagement.CheckGradeCTL.execute;
+
+public class  Main  {
+
+	public  static  void  main(String[]  args)  {
+
+		new CheckGradeCTL().execute();
+	}    
+}
