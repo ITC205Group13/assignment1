@@ -4,7 +4,7 @@ public class ListUnitsCTL {
     private UnitManager unitManager;
     
     public ListUnitsCTL() {
-        unitManager = UnitManager.UM();
+        unitManager = UnitManager.unitMap();
     }
 
     public void listUnits(IUnitLister unitLister) {

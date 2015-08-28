@@ -9,7 +9,7 @@ public  class  UnitManager {
 
 	private  UnitMap  unitMap;
 
-	public  static  UnitManager  UM() {
+	public  static  UnitManager  unitMap() {
 
 		if  (self  ==  null)
 

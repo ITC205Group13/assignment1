@@ -41,7 +41,7 @@ public  class  Unit  implements  IUnit  {
 		return  this.unitName;
 	}
 
-	public  void  setPsCutoff1(float  cutoff)  {
+	public  void  setPsCutoff(float  cutoff)  {
 		
 		this.cutOff2  =  cutoff;
 	}
@@ -65,7 +65,7 @@ public  class  Unit  implements  IUnit  {
 		this.cutOff4  =  cutoff;
 	}
 
-	public  float  getDiCuttoff() {
+	public  float  getDiCutoff() {
 		return  this.cutOff4;
 	}
 

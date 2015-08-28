@@ -58,7 +58,7 @@ public class CheckGradeCTL {
 	}
 
 	public String checkGrade(float asg1Mark, float asg2Mark, float examMark) {
-		IUnit unit = UnitManager.UM().getUnit(unitCode);
+		IUnit unit = UnitManager.unitMap().getUnit(unitCode);
 		String grade = unit.getGrade(asg1Mark, asg2Mark, examMark);
 		checkGradeUI.setState4(true);
 		checkGradeUI.setState5(false);
@@ -76,7 +76,7 @@ public class CheckGradeCTL {
 	}
 
 	public void saveGrade(float asg1Mark, float asg2Mark, float examMark) {
-		IUnit unit = UnitManager.UM().getUnit(unitCode);
+		IUnit unit = UnitManager.unitMap().getUnit(unitCode);
 		IStudent student = StudentManager.get().getStudent(currentStudentID);
 		IStudentUnitRecord studentUnitRecord = student.getUnitRecord(unitCode);
 		studentUnitRecord.setAsg1(asg1Mark);

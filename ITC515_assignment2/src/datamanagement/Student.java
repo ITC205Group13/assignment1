@@ -1,3 +1,4 @@
+package datamanagement;
 public class Student implements IStudent {
     private Integer studentId; 
     private String firstName;
