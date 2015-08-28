@@ -1,38 +1,49 @@
 package datamanagement;
-
 public class Student implements IStudent {
-    private Integer id; private String fn;
-            private String ln;
-private StudentUnitRecordList su;
+    private Integer studentId; 
+    private String firstName;
+    private String lastName;
+    private StudentUnitRecordList recordList;
 
-public Student( Integer id, String fn, String ln, StudentUnitRecordList su ) { this.id = id; this.fn = fn;
-        this.ln = ln;this.su = 
-        su == null ? new StudentUnitRecordList() : 
-                su;
-}
+    public Student (Integer studentId, String firstName, String lastName, StudentUnitRecordList record) { 
+    	this.studentId = studentId; 
+    	this.firstName = firstName;
+        this.lastName = lastName;
+        this.recordList = recordList == null ? new StudentUnitRecordList() : record;
+    }
 
-    public Integer getID() { return this.id; 
-} public String getFirstName() { 
-return fn; }
+    public Integer getID() { 
+    	return this.studentId; 
+    } 
+    
+    public String getFirstName() { 
+    	return firstName; 
+    }
 
-    public void setFirstName( String firstName ) { 
-this.fn = firstName; }
+    public void setFirstName (String firstName) { 
+    	this.firstName = firstName; 
+    }
 
-public String getLastName() { 
-    return ln; }
-    public void setLastName( String lastName ) { 
+    public String getLastName() { 
+    	return lastName; 
+    }
+    
+    public void setLastName (String lastName) { 
+    	this.lastName = lastName; 
+    }
 
+    public void addUnitRecord (IStudentUnitRecord record) { 
+    	recordList.add(record); 
+    }
         
-this.ln = lastName; }
+    public IStudentUnitRecord getUnitRecord (String unitCode) {
+    	for (IStudentUnitRecord r : recordList)  
+            if (r.getUnitCode().equals(unitCode)) 
+            	return r; 
+    		return null;
+    }
 
-public void addUnitRecord( IStudentUnitRecord record ) { su.add(record); }
-        public IStudentUnitRecord getUnitRecord( String unitCode ) {
-for ( IStudentUnitRecord r : su ) 
-            if ( r.getUnitCode().equals(unitCode)) 
-return r; 
-
-return null;
-        
+    public StudentUnitRecordList getUnitRecords() { 
+    	return recordList; 
+	}
 }
-
-public StudentUnitRecordList getUnitRecords() { return su; }}
